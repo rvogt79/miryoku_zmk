@@ -10,7 +10,7 @@ jobs:
     with:
       board: '["nice_nano_v2"]'
       shield: '["lily58_left","lily58_right"]'
-      kconfig: '["CONFIG_ZMK_DISPLAY=y","CONFIG_EC11=y","CONFIG_EC11_TRIGGER_GLOBAL_THREAD=y"]'
+      kconfig: '["CONFIG_ZMK_DISPLAY=y\nCONFIG_EC11=y\nCONFIG_EC11_TRIGGER_GLOBAL_THREAD=y"]'
       nav: '["vi"]'
 
 
