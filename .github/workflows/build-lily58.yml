@@ -1,7 +1,7 @@
 # Copyright 2022 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-name: 'Build my lily58'
+name: 'Build My lily58'
 on: workflow_dispatch
 jobs:
   build:
@@ -12,5 +12,6 @@ jobs:
       shield: '["lily58_left","lily58_right"]'
       kconfig: '["CONFIG_ZMK_DISPLAY=y\nCONFIG_EC11=y\nCONFIG_EC11_TRIGGER_GLOBAL_THREAD=y"]'
       nav: '["vi"]'
+      clipboard: '["mac"]'
 
 
