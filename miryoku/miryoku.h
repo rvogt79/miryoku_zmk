@@ -43,3 +43,7 @@
 #else
   #include "miryoku_behaviors.h"
 #endif
+
+#if !defined(MIRYOKU_KLUDGE_LAYER_ADDITIONAL)
+  #define MIRYOKU_KLUDGE_LAYER_ADDITIONAL
+#endif
