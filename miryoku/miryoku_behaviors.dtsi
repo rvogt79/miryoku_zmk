@@ -24,7 +24,7 @@
       label = "td_shift";
       #binding-cells = <0>;
       tapping-term-ms = <1000>;
-      bindings = <&kp LSHIFT>, <&u_caps_word>;
+      bindings = <&sk LSHIFT>, <&u_caps_word>;
     };
   };
 };
