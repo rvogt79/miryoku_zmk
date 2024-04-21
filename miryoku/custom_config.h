@@ -2,16 +2,17 @@
 // https://github.com/manna-harbour/miryoku
 #if !defined (MIRYOKU_LAYOUTMAPPING_LILY58)
 
-/ {
-  behaviors {
-        td_shift: tap_dance_mod_tap {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <1000>;
-            bindings = <&kp LSHIFT>, <&u_caps_word>;
-        };
-  };
-};
+// / {
+//   behaviors {
+//     td_shift: td_shift {
+//       compatible = "zmk,behavior-tap-dance";
+//       label = "td_shift";
+//       #binding-cells = <0>;
+//       tapping-term-ms = <1000>;
+//       bindings = <&kp LSHIFT>, <&u_caps_word>;
+//     };
+//   };
+// };
 
 #define TDS &td_shift
 

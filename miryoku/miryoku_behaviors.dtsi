@@ -19,5 +19,12 @@
       flavor = "tap-preferred";
       bindings = <&mo>, <&kp>;
     };
+    td_shift: td_shift {
+      compatible = "zmk,behavior-tap-dance";
+      label = "td_shift";
+      #binding-cells = <0>;
+      tapping-term-ms = <1000>;
+      bindings = <&kp LSHIFT>, <&u_caps_word>;
+    };
   };
 };
