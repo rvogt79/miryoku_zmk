@@ -26,7 +26,7 @@
 &kp LBKT  K00  K01  K02  K03  K04                 K05  K06  K07  K08  K09  &kp RBKT \
 &kp Z  K10  K11  K12  K13  K14                 K15  K16  K17  K18  K19  &kp Q \
 &td_shift  K20  K21  K22  K23  K24  XXX       XXX  K25  K26  K27  K28  K29  &td_shift \
-               &kp LS(LG(P))  K32  K33  K34       K35  K36  K37  &to BASE
+               &kp LS(LG(P))  K32  K33  K34       K35  K36  K37  &to 0
 
 // #define MIRYOKU_LAYERMAPPING_BASE(...) \
 &kp EQUAL  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                 &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp BSLH \
