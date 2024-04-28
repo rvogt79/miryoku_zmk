@@ -4,7 +4,9 @@
 
 #define XXX &none
 
-#define MIRYOKU_LAYOUTMAPPING_LILY58( \
+// #define MIRYOKU_LAYOUTMAPPING_LILY58( \
+
+#define MIRYOKU_LAYERMAPPING_BASE( \
      K00, K01, K02, K03, K04,                K05, K06, K07, K08, K09, \
      K10, K11, K12, K13, K14,                K15, K16, K17, K18, K19, \
      K20, K21, K22, K23, K24,                K25, K26, K27, K28, K29, \
@@ -16,7 +18,8 @@
 &td_shift  K20  K21  K22  K23  K24  XXX       XXX  K25  K26  K27  K28  K29  &td_shift \
                &kp LS(LG(P))  K32  K33  K34       K35  K36  K37  XXX
 
-#define MIRYOKU_LAYERMAPPING_TAP( \
+
+// #define MIRYOKU_LAYERMAPPING_TAP( \
      K00, K01, K02, K03, K04,                K05, K06, K07, K08, K09, \
      K10, K11, K12, K13, K14,                K15, K16, K17, K18, K19, \
      K20, K21, K22, K23, K24,                K25, K26, K27, K28, K29, \
@@ -27,6 +30,7 @@
 &kp Z  &kp C  &kp I  &kp E  &kp A  &kp COMMA                 &kp PERIOD  &kp H  &kp T  &kp S  &kp N  &kp Q \
 &td_shift  &kp G  &kp X  &kp J  &kp K  &kp MINUS  XXX       XXX  &kp FLSH  &kp R  &kp M  &kp F  &kp P  &td_shift \
                &kp LS(LG(P))  &kp DEL  &kp BSPC  &kp RET       &kp TAB  &kp SPC  &kp ESC  &to BASE
+
 
 #define MIRYOKU_KLUDGE_THUMBCOMBOS_LEFT 52 53
 #define MIRYOKU_KLUDGE_THUMBCOMBOS_RIGHT 54 55
