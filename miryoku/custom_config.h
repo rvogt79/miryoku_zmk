@@ -19,7 +19,7 @@
                &kp LS(LG(P))  K32  K33  K34       K35  K36  K37  XXX
 
 
-#define MIRYOKU_LAYERMAPPING_BASE() \
+#define MIRYOKU_LAYERMAPPING_BASE(...) \
 &kp EQUAL  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                 &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp BSLH \
 &kp LBKT  &kp B  &kp Y  &kp O  &kp U  &kp APOS                 &kp SEMI  &kp L  &kp D  &kp W  &kp V  &kp RBKT \
 &kp Z  &kp C  &kp I  &kp E  &kp A  &kp COMMA                 &kp PERIOD  &kp H  &kp T  &kp S  &kp N  &kp Q \
