@@ -27,7 +27,7 @@
 #define MIRYOKU_LAYER_BASE \
 &kp B,             &kp Y,             &kp O,              &kp U,             &kp APOS,          &kp SEMI,         &kp L,              &kp D,             &kp W,             &kp V,            \
 U_MT(LCTRL, C),    U_MT(LALT, I),     U_MT(LSHFT, E),     U_MT(LGUI, A),     &kp COMMA,         &kp DOT,          U_MT(LGUI, H),      U_MT(LSHFT, T),    U_MT(LALT, S),     U_MT(LCTRL, N),   \
-U_LT(U_BUTTON, G), U_MT(RALT, X),     &kp J,              &kp K,             &kp MINUS,         &kp FSL           &kp R,              &kp M,             U_MT(RALT, F),     U_LT(U_BUTTON, P),\
+U_LT(U_BUTTON, G), U_MT(RALT, X),     &kp J,              &kp K,             &kp MINUS,         &kp FSLH,         &kp R,              &kp M,             U_MT(RALT, F),     U_LT(U_BUTTON, P),\
 U_NP,              U_NP,              U_LT(U_MOUSE, DEL), U_LT(U_NAV, BSPC), U_MT(LSHFT, RET),  U_LT(U_SYM, TAB), U_LT(U_NUM, SPACE), U_LT(U_FUN, ESC),  U_NP,              U_NP
 
 #define MIRYOKU_LAYER_EXTRA \
@@ -36,17 +36,17 @@ U_MT(LCTRL, A),    U_MT(LALT, S),     U_MT(LSHFT, D),     U_MT(LGUI, F),     &kp
 U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,              &kp V,             &kp B,             &kp N,            &kp M,              &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
 U_NP,              U_NP,              U_LT(U_MOUSE, DEL), U_LT(U_NAV, BSPC), U_MT(LSHFT, RET),  U_LT(U_SYM, TAB), U_LT(U_NUM, SPACE), U_LT(U_FUN, ESC),  U_NP,              U_NP
 
-// #define MIRYOKU_LAYER_TAP \
-// &kp B,             &kp Y,             &kp O,             &kp U,             &kp APOS,             &kp SEMI,             &kp L,             &kp D,         &kp W,          &kp V,\
-// &kp C,             &kp I,             &kp E,             &kp A,             &kp COMMA,            &kp DOT,              &kp H,             &kp T,         &kp S,          &kp N,\
-// &kp G,             &kp X,             &kp J,             &kp K,             &kp MINUS,            &kp FSLH,             &kp R,             &kp M,         &kp F,          &kp P,\
-// U_NP,              U_NP,              &kp DEL,           &kp BSPC,          &kp RET,              &kp TAB,              &kp SPACE,         &kp ESC,       U_NP,           U_NP
+#define MIRYOKU_LAYER_TAP \
+&kp B,             &kp Y,             &kp O,             &kp U,             &kp APOS,             &kp SEMI,             &kp L,             &kp D,         &kp W,          &kp V,\
+&kp C,             &kp I,             &kp E,             &kp A,             &kp COMMA,            &kp DOT,              &kp H,             &kp T,         &kp S,          &kp N,\
+&kp G,             &kp X,             &kp J,             &kp K,             &kp MINUS,            &kp FSLH,             &kp R,             &kp M,         &kp F,          &kp P,\
+U_NP,              U_NP,              &kp DEL,           &kp BSPC,          &kp RET,              &kp TAB,              &kp SPACE,         &kp ESC,       U_NP,           U_NP
 
-// #define MIRYOKU_LAYER_NAV \
-// U_BOOT,            &kp LC(LS(TAB)),   &kp LG(GRAVE),     &kp LC(TAB),       U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,       \
-// &kp LCTRL,         &kp LALT,          &kp LSHFT,         &kp LGUI,          U_NA,              &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         &u_caps_word,\
-// U_NA,              &kp RALT,          &u_to_U_NUM,       &u_to_U_NAV,       U_NA,              &kp LG(LEFT),      &kp LA(LEFT),      &kp LA(RIGHT),     &kp LG(RIGHT),     &kp INS,     \
-// U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+#define MIRYOKU_LAYER_NAV \
+U_BOOT,            &kp LC(LS(TAB)),   &kp LG(GRAVE),     &kp LC(TAB),       U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,       \
+&kp LCTRL,         &kp LALT,          &kp LSHFT,         &kp LGUI,          U_NA,              &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         &u_caps_word,\
+U_NA,              &kp RALT,          &u_to_U_NUM,       &u_to_U_NAV,       U_NA,              &kp LG(LEFT),      &kp LA(LEFT),      &kp LA(RIGHT),     &kp LG(RIGHT),     &kp INS,     \
+U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_KLUDGE_LAYER_ADDITIONAL \
 sensor-bindings = <&inc_dec_kp LG(LA(EQUAL)) LG(LA(MINUS)) &inc_dec_kp PG_UP PG_DN>;
