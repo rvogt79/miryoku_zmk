@@ -32,7 +32,7 @@ U_NP,              U_NP,              U_LT(U_MOUSE, DEL), U_LT(U_NAV, BSPC), U_M
 
 #define MIRYOKU_LAYER_EXTRA \
 &kp Q,             &kp W,             &kp E,              &kp R,             &kp T,             &kp Y,            &kp U,              &kp I,             &kp O,             &kp P,             \
-U_MT(LCTRL, A),    U_MT(LALT, S),     U_MT(LSHFT, D),     U_MT(LGUI, F),     &kp G,             &kp H,            U_MT(LGUI, J),     U_MT(LSHFT, K),     U_MT(LALT, L),     U_MT(LCTRL, SQT),   \
+U_MT(LCTRL, A),    U_MT(LALT, S),     U_MT(LSHFT, D),     U_MT(LGUI, F),     &kp G,             &kp H,            U_MT(LGUI, J),      U_MT(LSHFT, K),    U_MT(LALT, L),     U_MT(LCTRL, SQT),   \
 U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,              &kp V,             &kp B,             &kp N,            &kp M,              &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
 U_NP,              U_NP,              U_LT(U_MOUSE, DEL), U_LT(U_NAV, BSPC), U_MT(LSHFT, RET),  U_LT(U_SYM, TAB), U_LT(U_NUM, SPACE), U_LT(U_FUN, ESC),  U_NP,              U_NP
 
@@ -43,7 +43,7 @@ U_NP,              U_NP,              U_LT(U_MOUSE, DEL), U_LT(U_NAV, BSPC), U_M
 U_NP,              U_NP,              &kp DEL,           &kp BSPC,          &kp RET,              &kp TAB,              &kp SPACE,         &kp ESC,       U_NP,           U_NP
 
 #define MIRYOKU_LAYER_NAV \
-U_BOOT,            &kp LC(LS(GRAVE)), &kp LG(TILDE),     &LC(GRAVE),        U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
+U_BOOT,            &kp LC(LS(TAB)),   &kp LG(GRAVE),     &kp LC(TAB),       U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 &kp LCTRL,         &kp LALT,          &kp LSHFT,         &kp LGUI,          U_NA,              &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         &u_caps_word,      \
 U_NA,              &kp RALT,          &u_to_U_NUM,       &u_to_U_NAV,       U_NA,              &kp LG(LEFT),      &kp LA(LEFT),      &kp LA(RIGHT),     &kp LG(RIGHT),     &kp INS,           \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
