@@ -42,5 +42,11 @@ U_NP,              U_NP,              U_LT(U_MOUSE, DEL), U_LT(U_NAV, BSPC), U_M
 &kp G,             &kp X,             &kp J,             &kp K,             &kp MINUS,            &kp FSLH,             &kp R,             &kp M,         &kp F,          &kp P,\
 U_NP,              U_NP,              &kp DEL,           &kp BSPC,          &kp RET,              &kp TAB,              &kp SPACE,         &kp ESC,       U_NP,           U_NP
 
+#define MIRYOKU_LAYER_NAV \
+U_BOOT,            &kp LC(LS(GRAVE)), &kp LG(TILDE),     &LC(GRAVE),        U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
+&kp LCTRL,         &kp LALT,          &kp LSHFT,         &kp LGUI,          U_NA,              &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         &u_caps_word,      \
+U_NA,              &kp RALT,          &u_to_U_NUM,       &u_to_U_NAV,       U_NA,              &kp LG(LEFT),      &kp LA(LEFT),      &kp LA(RIGHT),     &kp LG(RIGHT),     &kp INS,           \
+U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+
 #define MIRYOKU_KLUDGE_LAYER_ADDITIONAL \
 sensor-bindings = <&inc_dec_kp LG(LA(EQUAL)) LG(LA(MINUS)) &inc_dec_kp PG_UP PG_DN>;
